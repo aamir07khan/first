@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#game-board {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
