@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeShala: The Coding Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="instructions-panel">
+            <h1>Level 1: The First Step</h1>
+            <p>Welcome to CodeShala! Your goal is to guide Guru to the data crystal (G).</p>
+            <p>Use the command <code>guru.moveForward()</code> in the editor to move Guru.</p>
+            <p>Click "Run Code" to see Guru in action!</p>
+        </div>
+        <div id="game-panel">
+            <div id="grid-container">
+                <!-- The game grid will be generated here by JavaScript -->
+            </div>
+        </div>
+        <div id="editor-panel">
+            <h2>Code Editor</h2>
+            <textarea id="code-editor" rows="20" cols="50"></textarea>
+            <button id="run-button">Run Code</button>
+            <div id="error-message"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
